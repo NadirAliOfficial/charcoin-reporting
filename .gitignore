@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# CSV/exports (optional, if you don't want to commit generated data)
+*.csv
+
+# OS files
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/
