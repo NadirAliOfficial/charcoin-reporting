@@ -44,8 +44,8 @@ CharCoin Insights provides backend scripts for transparent analytics, fee tracki
 ### 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/YourUsername/charcoin-insights.git
-cd charcoin-insights
+git clone https://github.com/NadirAliOfficial/charcoin-reporting
+cd charcoin-reporting
 ````
 
 ### 2. **Install dependencies**
