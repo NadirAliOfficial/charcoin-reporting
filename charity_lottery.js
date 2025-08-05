@@ -84,11 +84,11 @@ async function getRecentCharTxDate(walletAddress, minTimestamp) {
 
   for (const h of holders) {
     checked++;
-    process.stdout.write(`\r🔍 [${checked}/${holders.length}] Checking: ${h.address.slice(0,8)}...   `);
+    process.stdout.write(`\r🔍 [${checked}/${holders.length}] Checking: ${h.owner.slice(0,8)}...   `);
     const lastTxDate = await getRecentCharTxDate(h.owner, minTimestamp);
     if (lastTxDate) {
-      eligible.push({ wallet: h.address, lastTxDate });
-      console.log(`✅ Eligible: ${h.address} (Last CHAR tx: ${lastTxDate})`);
+      eligible.push({ wallet: h.owner, lastTxDate });
+      console.log(`✅ Eligible: ${h.owner} (Last CHAR tx: ${lastTxDate})`);
     } else {
       // Uncomment to log not eligible: 
       // console.log(`❌ Not eligible: ${h.address}`);

@@ -8,7 +8,7 @@ const TOKEN_MINT = "charyAhpBstVjf5VnszNiY8UUVDbvA167dQJqpBY2hw";
 const PAGE_SIZE = 40;
 
 // ==== CONFIGURE ====
-const DAYS = 1;        // Last X days
+const DAYS = 30;        // Last X days
 const TOP_N = 10;       // How many top wallets
 
 const headers = {

@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
-const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkQXQiOjE3NTM4OTk5MTgzNDIsImVtYWlsIjoiaGVsbG9AY2hhcmNvaW4ub3JnIiwiYWN0aW9uIjoidG9rZW4tYXBpIiwiYXBpVmVyc2lvbiI6InYyIiwiaWF0IjoxNzUzODk5OTE4fQ.ag5imHIn4_imWHeDUxQCqgrzsv8VEpidom9BnueZTuk";  
+const API_KEY = process.env.SOLSCAN_API_KEY;
 const TOKEN_MINT = "charyAhpBstVjf5VnszNiY8UUVDbvA167dQJqpBY2hw";
 const PAGE_SIZE = 10;
 

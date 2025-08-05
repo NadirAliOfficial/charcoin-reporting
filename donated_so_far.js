@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const API_KEY = process.env.SOLSCAN_API_KEY;
 const TOKEN_MINT = "charyAhpBstVjf5VnszNiY8UUVDbvA167dQJqpBY2hw";
-const HOLDER_OWNER = "34vReZu1vXhyCkBYVDZw7a2Z5kPvso3ZFg6bRBzLqVEh";
+const HOLDER_OWNER = "2pk2W5QqpUMLeASDzXBajgbqpNYeWYsyRrCo84Kink3A";
 
 const headers = {
   token: API_KEY,
